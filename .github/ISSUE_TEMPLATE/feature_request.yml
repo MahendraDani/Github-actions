@@ -1,0 +1,52 @@
+name: "🚀 New Feature Request"
+description: Have a new idea/feature for the project? Submit it here!
+title: "feat: "
+labels: ["feature","enhancement"]
+body: 
+  - type: markdown
+    attributes: |
+      🚀 **New Feature Request**
+
+      We appriciate that you taken time for filling out this Feature Request Report!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the new feature.
+      description: Please provide a brief description of the new feature you propose. Try to keep it short, simple and to the point.
+      placeholder: Short and explicit description of the new feature...
+    validations:
+      required: true
+  - type: textarea
+    id: solutionsteps
+    attributes:
+      labels: Describe briefly how you would implement this new feature.
+      description: Please provide the solution setpps for implementing the new feature.
+      placeholder: Short and explicit description of the solution steps ...
+      value: |
+      Some stpes to implement this new feature-
+      1. Step 1
+      2. Step 2
+      3. Step 3
+    render: bash
+  - type: screenshots
+    id: references
+    attributes:
+      labels: Screenshots/Video references (if applicable)
+      desccription: Please add the screenshots/videos of the new feature
+      validations:
+        required: false
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else we should know about this enhancement?
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Contributor terms
+      description: By submitting this issue, you agree to follow our Contributing Instructions. Please read our [Contributing Instructions](https://github.com/CatsInTech/GitHub-ReadMe/blob/main/Contributing.md) and abide by our [Code of Conduct](https://github.com/jain-rishabh-21/DoctorVerse/blob/main/CODE_OF_CONDUCT.md).
+      options:
+        - label: I agree to follow the Contributing Instructions
+          required: true
