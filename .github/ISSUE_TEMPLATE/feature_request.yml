@@ -22,11 +22,7 @@ body:
       labels: Describe briefly how you would implement this new feature.
       description: Please provide the solution setpps for implementing the new feature.
       placeholder: Short and explicit description of the solution steps ...
-      value: |
-      Some stpes to implement this new feature-
-      1. Step 1
-      2. Step 2
-      3. Step 3
+      value: Some stpes to implement this new feature-
     render: bash
   - type: screenshots
     id: references
